@@ -1,0 +1,8 @@
+2024-07-14 15:09:10 - Window: Party Invite - Profile 1 - Microsoft​ Edge, Differences:
+    Difference 1: (x1=361, y1=633, x2=389, y2=664)
+    Difference 2: (x1=369, y1=493, x2=389, y2=513)
+    Difference 3: (x1=361, y1=457, x2=389, y2=489)
+    Difference 4: (x1=361, y1=421, x2=389, y2=455)
+    Difference 5: (x1=361, y1=400, x2=382, y2=420)
+    Difference 6: (x1=0, y1=0, x2=1382, y2=744)
+
