@@ -5,9 +5,13 @@ Auditing the Data Entry Transactions
 This tool compares screenshots taken during data entry (active window) against a reference image (`image.JPG`). It highlights differences within a user-selected rectangle on the screen and logs these differences in a text file (`log.txt`). The application is designed to aid quality assurance in the BPO industry by ensuring accuracy in data entry tasks.
 
 ## Quick Steps to Run the Project:
-1. Save the Python file (`window_comparator.py`) in a directory/folder.
-2. Ensure that the required packages are installed (see Requirements).
-3. Run the script to capture the active window screenshot and compare it with the reference image.
+1. Save the reference image in the project directory as image.jpg
+2. Save the Python file (`window_comparator.py`) in a directory/folder.
+3. Ensure that the required packages are installed (see Requirements).
+4. Run the script to capture the active window screenshot and compare it with the reference image.
+5. Script will take you to transaction processing window
+6. Go back to script image and highlight the area where in-scope fields should fall within the rectangle
+7. Next Script will ask you for the threshold, you can keep it somewhere 400. Note: this parameter will allow you to amnd the sensitivity of the model, keep this number high to see only significant changes 
 
 ## Requirements
 - Python 3.x
