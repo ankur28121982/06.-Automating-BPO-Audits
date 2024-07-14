@@ -11,7 +11,8 @@ This tool compares screenshots taken during data entry (active window) against a
 4. Run the script to capture the active window screenshot and compare it with the reference image.
 5. Script will take you to transaction processing window
 6. Go back to script image and highlight the area where in-scope fields should fall within the rectangle
-7. Next Script will ask you for the threshold, you can keep it somewhere 400. Note: this parameter will allow you to amnd the sensitivity of the model, keep this number high to see only significant changes 
+7. Next Script will ask you for the threshold, you can keep it somewhere 400. Note: this parameter will allow you to amnd the sensitivity of the model, keep this number high to see only significant changes
+8. 3 new files will be created, i.e. captured_window.jpg, differences_highlighted.jpg, log.txt
 
 ## Requirements
 - Python 3.x
